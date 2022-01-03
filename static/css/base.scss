@@ -12,6 +12,8 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
+////////////////////////////////////////
+////////////////////////////////////////
 // Mobile Version //
 
 // Navbar
@@ -352,7 +354,249 @@ body {
     }
 }
 
-////////////////////
+////////////////////////////////////////
+////////////////////////////////////////
+// About Page //
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+// About Page //
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+// Contact Page //
+
+.contact-section {
+    height: 500px;
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+            color: var(--pri-color);
+            font-size: 25px;
+        }
+
+        p {
+            color: var(--sec-color);
+        }
+
+        a {
+            border: 2px solid var(--pri-color);
+            color: var(--sec-color);
+            text-decoration: none;
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+    }
+}
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+// login Page //
+.login-section {
+    height: 500px;
+
+    .login-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        // height: 500px;
+        align-items: center;
+        // justify-content: center;
+        h1 {
+            color: var(--pri-color);
+            font-size: 25px;
+        }
+
+        a {
+            border: 2px solid var(--pri-color);
+            color: var(--sec-color);
+            text-decoration: none;
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+    }
+
+    .login-other-links-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .forgot-password, .register-now {
+            color: var(--pri-color);
+            text-decoration: none;
+            margin: .5rem;
+        }
+
+        span{
+            color: var(--sec-color);
+        }
+    }
+}
+
+////////////////////////////////////////
+////////////////////////////////////////
+// Register Page //
+.register-section {
+    height: 500px;
+
+    .register-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+            color: var(--pri-color);
+        }
+
+        a {
+            border: 2px solid var(--pri-color);
+            color: var(--sec-color);
+            text-decoration: none;
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+    }
+
+    .register-other-links-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .forgot-password, .register-now {
+            color: var(--pri-color);
+            text-decoration: none;
+            margin: .5rem;
+        }
+
+        span{
+            color: var(--sec-color);
+        }
+    }
+}
+
+////////////////////////////////////////
+////////////////////////////////////////
+// Logout Page //
+
+.logout-section {
+    .logout-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        h1 {
+            color: var(--pri-color);
+            font-size: 25px;
+        }
+
+        a {
+            border: 2px solid var(--pri-color);
+            color: var(--sec-color);
+            text-decoration: none;
+            padding: .5rem;
+        }
+    }
+}
+
+////////////////////////////////////////
+////////////////////////////////////////
+// Forgot Password Page //
+
+.forgot-password-section {
+    height: 500px;
+
+    .forgot-password-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+            color: var(--pri-color);
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+
+        p {
+            color: var(--sec-color);
+        }
+
+        a {
+            border: 2px solid var(--pri-color);
+            color: var(--sec-color);
+            text-decoration: none;
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+    }
+}
+
+
+////////////////////////////////////////
+////////////////////////////////////////
+// Change Password Page //
+
+.change-password-section {
+    height: 500px;
+
+    .change-password-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+        h1 {
+            color: var(--pri-color);
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+
+        p {
+            color: var(--sec-color);
+        }
+
+        a {
+            border: 2px solid var(--pri-color);
+            color: var(--sec-color);
+            text-decoration: none;
+            padding: .5rem;
+            margin: 1rem 0;
+        }
+
+        
+    }
+
+    .change-password-other-links-info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .forgot-password, .register-now {
+            color: var(--pri-color);
+            text-decoration: none;
+            margin: .5rem;
+        }
+
+       
+        .register-now {
+                color: var(--sec-color);
+            }
+
+    }
+}
+
+
+////////////////////////////////////////
+////////////////////////////////////////
 // Media Queries //
 
 @media (min-width: 500px){
@@ -491,7 +735,8 @@ body {
     // Start Here
     .navbar {
         justify-content: space-evenly;
-        width: 100%;
+        max-width: 100%;
+        // width: 1200px;
         .nav-menu {
             display: flex;
             align-items: top;
@@ -607,7 +852,7 @@ body {
         flex-direction: column;
         align-items: center;
         .footer-container {
-            width: 1200px;
+            // width: 1200px;
             max-width: 100%;
         }
     }

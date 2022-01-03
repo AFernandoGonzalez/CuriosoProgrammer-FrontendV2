@@ -433,6 +433,271 @@ body {
   color: var(--pri-color);
 }
 
+.contact-section {
+  height: 500px;
+}
+
+.contact-section .contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact-section .contact-container h1 {
+  color: var(--pri-color);
+  font-size: 25px;
+}
+
+.contact-section .contact-container p {
+  color: var(--sec-color);
+}
+
+.contact-section .contact-container a {
+  border: 2px solid var(--pri-color);
+  color: var(--sec-color);
+  text-decoration: none;
+  padding: .5rem;
+  margin: 1rem 0;
+}
+
+.login-section {
+  height: 500px;
+}
+
+.login-section .login-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-section .login-container h1 {
+  color: var(--pri-color);
+  font-size: 25px;
+}
+
+.login-section .login-container a {
+  border: 2px solid var(--pri-color);
+  color: var(--sec-color);
+  text-decoration: none;
+  padding: .5rem;
+  margin: 1rem 0;
+}
+
+.login-section .login-other-links-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.login-section .login-other-links-info .forgot-password, .login-section .login-other-links-info .register-now {
+  color: var(--pri-color);
+  text-decoration: none;
+  margin: .5rem;
+}
+
+.login-section .login-other-links-info span {
+  color: var(--sec-color);
+}
+
+.register-section {
+  height: 500px;
+}
+
+.register-section .register-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.register-section .register-container h1 {
+  color: var(--pri-color);
+}
+
+.register-section .register-container a {
+  border: 2px solid var(--pri-color);
+  color: var(--sec-color);
+  text-decoration: none;
+  padding: .5rem;
+  margin: 1rem 0;
+}
+
+.register-section .register-other-links-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.register-section .register-other-links-info .forgot-password, .register-section .register-other-links-info .register-now {
+  color: var(--pri-color);
+  text-decoration: none;
+  margin: .5rem;
+}
+
+.register-section .register-other-links-info span {
+  color: var(--sec-color);
+}
+
+.logout-section .logout-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  height: 500px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logout-section .logout-container h1 {
+  color: var(--pri-color);
+  font-size: 25px;
+}
+
+.logout-section .logout-container a {
+  border: 2px solid var(--pri-color);
+  color: var(--sec-color);
+  text-decoration: none;
+  padding: .5rem;
+}
+
+.forgot-password-section {
+  height: 500px;
+}
+
+.forgot-password-section .forgot-password-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forgot-password-section .forgot-password-container h1 {
+  color: var(--pri-color);
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+
+.forgot-password-section .forgot-password-container p {
+  color: var(--sec-color);
+}
+
+.forgot-password-section .forgot-password-container a {
+  border: 2px solid var(--pri-color);
+  color: var(--sec-color);
+  text-decoration: none;
+  padding: .5rem;
+  margin: 1rem 0;
+}
+
+.change-password-section {
+  height: 500px;
+}
+
+.change-password-section .change-password-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.change-password-section .change-password-container h1 {
+  color: var(--pri-color);
+  -webkit-margin-before: 0em;
+          margin-block-start: 0em;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
+}
+
+.change-password-section .change-password-container p {
+  color: var(--sec-color);
+}
+
+.change-password-section .change-password-container a {
+  border: 2px solid var(--pri-color);
+  color: var(--sec-color);
+  text-decoration: none;
+  padding: .5rem;
+  margin: 1rem 0;
+}
+
+.change-password-section .change-password-other-links-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.change-password-section .change-password-other-links-info .forgot-password, .change-password-section .change-password-other-links-info .register-now {
+  color: var(--pri-color);
+  text-decoration: none;
+  margin: .5rem;
+}
+
+.change-password-section .change-password-other-links-info .register-now {
+  color: var(--sec-color);
+}
+
 @media (min-width: 750px) {
   .hero-section {
     height: 80vh;
@@ -522,7 +787,7 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
+    max-width: 100%;
   }
   .navbar .nav-menu {
     display: -webkit-box;
@@ -646,7 +911,6 @@ body {
             align-items: center;
   }
   .footer-section .footer-container {
-    width: 1200px;
     max-width: 100%;
   }
 }
